@@ -1,0 +1,24 @@
+<snippet>
+	<content><![CDATA[
+<screen type="TopicSummary" id="screenID">
+	<title><![CDATA[title]]${-1}></title>
+	<initialText><![CDATA[initialText]]${-1}></initialText>
+	<graphic filename="screenID.swf"/>
+	<!-- passStatus = passed | completed, failStatus = failed | incomplete -->
+	<passingScore submit="y" passStatus="" failStatus=""><![CDATA[passingScore]]${-1}></passingScore>
+	<!-- use [SCORE] and [PERCENT] to display score and percentage -->
+	<passingText><![CDATA[passingText]]${-1}></passingText>
+	<failedText><![CDATA[failedText]]${-1}></failedText>
+	<thresholdFeedback>
+		<feedback id="1" threshold="12"><![CDATA[<br><br>feedback]]${-1}></feedback>
+		<feedback id="2" threshold="7"><![CDATA[<br><br>feedback]]${-1}></feedback>
+		<feedback id="3" threshold="4"><![CDATA[<br><br>feedback]]${-1}></feedback>
+		<feedback id="4" threshold="0"><![CDATA[<br><br>feedback]]${-1}></feedback>
+	</thresholdFeedback>
+	<passedInstruction><![CDATA[<br><br>passedInstruction]]${-1}></passedInstruction>
+	<failedInstruction><![CDATA[<br><br>failedInstruction]]${-1}></failedInstruction>
+</screen>
+]]></content>
+	<tabTrigger>topicsummary</tabTrigger>
+	<scope>text.xml</scope>
+</snippet>

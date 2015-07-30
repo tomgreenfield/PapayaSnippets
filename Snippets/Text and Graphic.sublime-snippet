@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+<screen type="TextAndGraphic" id="screenID">
+	<title><![CDATA[title]]${-1}></title>
+	<initialText><![CDATA[initialText]]${-1}></initialText>
+	<graphic filename="screenID.swf"/>
+	<bodyText><![CDATA[bodyText]]${-1}></bodyText>
+	<finalInstruction><![CDATA[<br><br>finalInstruction]]${-1}></finalInstruction>
+</screen>
+]]></content>
+	<tabTrigger>textandgraphic</tabTrigger>
+	<scope>text.xml</scope>
+</snippet>

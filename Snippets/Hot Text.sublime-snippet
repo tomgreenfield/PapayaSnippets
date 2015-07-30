@@ -1,0 +1,31 @@
+<snippet>
+	<content><![CDATA[
+<screen type="HotText" id="screenID">
+	<title><![CDATA[title]]${-1}></title>
+	<initialText><![CDATA[initialText]]${-1}></initialText>
+	<initialInstruction><![CDATA[<br><br>initialInstruction]]${-1}></initialInstruction>
+	<graphic filename="screenID.swf"/>
+	<hotspots hideImageWhenDisplayTextShown="y">
+		<hotspot id="1">
+			<label><![CDATA[label]]${-1}></label>
+			<displayText><![CDATA[<b>label</b><br><br>displayText]]${-1}></displayText>
+		</hotspot>
+		<hotspot id="2">
+			<label><![CDATA[label]]${-1}></label>
+			<displayText><![CDATA[<b>label</b><br><br>displayText]]${-1}></displayText>
+		</hotspot>
+		<hotspot id="3">
+			<label><![CDATA[label]]${-1}></label>
+			<displayText><![CDATA[<b>label</b><br><br>displayText]]${-1}></displayText>
+		</hotspot>
+		<hotspot id="4">
+			<label><![CDATA[label]]${-1}></label>
+			<displayText><![CDATA[<b>label</b><br><br>displayText]]${-1}></displayText>
+		</hotspot>
+	</hotspots>
+	<finalInstruction><![CDATA[<br><br>finalInstruction]]${-1}></finalInstruction>
+</screen>
+]]></content>
+	<tabTrigger>hottext</tabTrigger>
+	<scope>text.xml</scope>
+</snippet>

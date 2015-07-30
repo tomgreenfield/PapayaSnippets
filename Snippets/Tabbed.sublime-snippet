@@ -1,0 +1,58 @@
+<snippet>
+	<content><![CDATA[
+<screen type="Tabbed" id="screenID">
+	<title><![CDATA[title]]${-1}></title>
+	<initialText><![CDATA[initialText]]${-1}></initialText>
+	<initialInstruction><![CDATA[<br><br>initialInstruction]]${-1}></initialInstruction>
+	<tabs>
+		<tab id="1">
+			<title><![CDATA[title]]${-1}></title>
+			<columns>
+				<column id="1">
+					<displayText><![CDATA[displayText]]${-1}></displayText>
+				</column>
+				<column id="2">
+					<displayText><![CDATA[displayText]]${-1}></displayText>
+				</column>
+			</columns>
+		</tab>
+		<tab id="2">
+			<title><![CDATA[title]]${-1}></title>
+			<columns>
+				<column id="1">
+					<displayText><![CDATA[displayText]]${-1}></displayText>
+				</column>
+				<column id="2">
+					<graphic filename="screenID_1.swf"/>
+				</column>
+			</columns>
+		</tab>
+		<tab id="3">
+			<title><![CDATA[title]]${-1}></title>
+			<columns>
+				<column id="1">
+					<graphic filename="screenID_2.swf"/>
+				</column>
+				<column id="2">
+					<displayText><![CDATA[displayText]]${-1}></displayText>
+				</column>
+			</columns>
+		</tab>
+		<tab id="4">
+			<title><![CDATA[title]]${-1}></title>
+			<columns>
+				<column id="1">
+					<graphic filename="screenID_3.swf"/>
+				</column>
+				<column id="2">
+					<graphic filename="screenID_4.swf"/>
+				</column>
+			</columns>
+		</tab>
+	</tabs>
+	<finalInstruction><![CDATA[<br><br>finalInstruction]]${-1}></finalInstruction>
+</screen>
+]]></content>
+	<tabTrigger>tabbed</tabTrigger>
+	<scope>text.xml</scope>
+</snippet>

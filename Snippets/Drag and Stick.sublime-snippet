@@ -1,0 +1,34 @@
+<snippet>
+	<content><![CDATA[
+<screen type="DragAndStick" id="screenID">
+	<title><![CDATA[title]]${-1}></title>
+	<initialText><![CDATA[initialText]]${-1}></initialText>
+	<initialInstruction><![CDATA[<br><br>initialInstruction]]${-1}></initialInstruction>
+	<graphic filename="screenID.swf"/>
+	<options attempts="1" showModelAnswer="y">
+		<option id="1" targetID="4"><![CDATA[option]]${-1}></option>
+		<option id="2" targetID="3"><![CDATA[option]]${-1}></option>
+		<option id="3" targetID="5"><![CDATA[option]]${-1}></option>
+		<option id="4" targetID="2"><![CDATA[option]]${-1}></option>
+		<option id="5" targetID="6"><![CDATA[option]]${-1}></option>
+		<option id="6" targetID="1"><![CDATA[option]]${-1}></option>
+	</options>
+	<targets>
+		<target id="1"><![CDATA[target]]${-1}></target>
+		<target id="2"><![CDATA[target]]${-1}></target>
+		<target id="3"><![CDATA[target]]${-1}></target>
+		<target id="4"><![CDATA[target]]${-1}></target>
+		<target id="5"><![CDATA[target]]${-1}></target>
+		<target id="6"><![CDATA[target]]${-1}></target>
+	</targets>
+	<feedback>
+		<totallyCorrect><![CDATA[totallyCorrect]]${-1}></totallyCorrect>
+		<partlyCorrectFinal><![CDATA[partlyCorrectFinal]]${-1}></partlyCorrectFinal>
+		<totallyIncorrectFinal><![CDATA[totallyIncorrectFinal]]${-1}></totallyIncorrectFinal>
+	</feedback>
+	<finalInstruction><![CDATA[<br><br>finalInstruction]]${-1}></finalInstruction>
+</screen>
+]]></content>
+	<tabTrigger>dragandstick</tabTrigger>
+	<scope>text.xml</scope>
+</snippet>

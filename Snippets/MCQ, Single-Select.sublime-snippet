@@ -1,0 +1,23 @@
+<snippet>
+	<content><![CDATA[
+<screen type="MCQ" id="screenID">
+	<title><![CDATA[title]]${-1}></title>
+	<initialText><![CDATA[initialText]]${-1}></initialText>
+	<initialInstruction><![CDATA[<br><br>initialInstruction]]${-1}></initialInstruction>
+	<graphic filename="screenID.swf"/>
+	<options allowMultipleSelection="n" randomOrder="n" attempts="1" showMarking="y">
+		<option id="1" correct="n"><![CDATA[option]]${-1}></option>
+		<option id="2" correct="n"><![CDATA[option]]${-1}></option>
+		<option id="3" correct="n"><![CDATA[option]]${-1}></option>
+		<option id="4" correct="n"><![CDATA[option]]${-1}></option>
+	</options>
+	<feedback hideImageWhenFeedbackShown="y">
+		<totallyCorrect><![CDATA[totallyCorrect]]${-1}></totallyCorrect>
+		<totallyIncorrectFinal><![CDATA[totallyIncorrectFinal]]${-1}></totallyIncorrectFinal>
+	</feedback>
+	<finalInstruction><![CDATA[<br><br>finalInstruction]]${-1}></finalInstruction>
+</screen>
+]]></content>
+	<tabTrigger>mcqsingle</tabTrigger>
+	<scope>text.xml</scope>
+</snippet>

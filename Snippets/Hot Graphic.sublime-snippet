@@ -1,0 +1,47 @@
+<snippet>
+	<content><![CDATA[
+<screen type="HotGraphic" id="screenID">
+	<title><![CDATA[title]]${-1}></title>
+	<initialText><![CDATA[initialText]]${-1}></initialText>
+	<initialInstruction><![CDATA[<br><br>initialInstruction]]${-1}></initialInstruction>
+	<graphic filename="screenID.swf"/>
+	<hotspots fadeWhenSelected="n">
+		<hotspot id="1">
+			<label><![CDATA[label]]${-1}></label>
+			<displayText><![CDATA[<b>label</b><br><br>displayText]]${-1}></displayText>
+		</hotspot>
+		<hotspot id="2">
+			<label><![CDATA[label]]${-1}></label>
+			<displayText><![CDATA[<b>label</b><br><br>displayText]]${-1}></displayText>
+		</hotspot>
+		<hotspot id="3">
+			<label><![CDATA[label]]${-1}></label>
+			<displayText><![CDATA[<b>label</b><br><br>displayText]]${-1}></displayText>
+		</hotspot>
+		<hotspot id="4">
+			<label><![CDATA[label]]${-1}></label>
+			<displayText><![CDATA[<b>label</b><br><br>displayText]]${-1}></displayText>
+		</hotspot>
+		<hotspot id="5">
+			<label><![CDATA[label]]${-1}></label>
+			<displayText><![CDATA[<b>label</b><br><br>displayText]]${-1}></displayText>
+		</hotspot>
+		<hotspot id="6">
+			<label><![CDATA[label]]${-1}></label>
+			<displayText><![CDATA[<b>label</b><br><br>displayText]]${-1}></displayText>
+		</hotspot>
+		<hotspot id="7">
+			<label><![CDATA[label]]${-1}></label>
+			<displayText><![CDATA[<b>label</b><br><br>displayText]]${-1}></displayText>
+		</hotspot>
+		<hotspot id="8">
+			<label><![CDATA[label]]${-1}></label>
+			<displayText><![CDATA[<b>label</b><br><br>displayText]]${-1}></displayText>
+		</hotspot>
+	</hotspots>
+	<finalInstruction><![CDATA[<br><br>finalInstruction]]${-1}></finalInstruction>
+</screen>
+]]></content>
+	<tabTrigger>hotgraphic</tabTrigger>
+	<scope>text.xml</scope>
+</snippet>

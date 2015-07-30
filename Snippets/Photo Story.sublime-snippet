@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+<screen type="PhotoStory" id="screenID">
+	<title><![CDATA[title]]${-1}></title>
+	<initialText><![CDATA[initialText]]${-1}></initialText>
+	<initialInstruction><![CDATA[<br><br>initialInstruction]]${-1}></initialInstruction>
+	<panels autoShowFirstPanel="y">
+		<panel id="1" animated="y" filename="screenID_1.swf"><![CDATA[<b>label</b> displayText]]${-1}></panel>
+		<panel id="2" animated="y" filename="screenID_2.swf"><![CDATA[<b>label</b> displayText]]${-1}></panel>
+		<panel id="3" animated="y" filename="screenID_3.swf"><![CDATA[<b>label</b> displayText]]${-1}></panel>
+	</panels>
+	<finalInstruction><![CDATA[<br><br>finalInstruction]]${-1}></finalInstruction>
+</screen>
+]]></content>
+	<tabTrigger>photostory</tabTrigger>
+	<scope>text.xml</scope>
+</snippet>

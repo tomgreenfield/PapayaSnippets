@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+<screen type="OpenInput" id="screenID">
+	<title><![CDATA[title]]${-1}></title>
+	<initialText><![CDATA[initialText]]${-1}></initialText>
+	<initialInstruction><![CDATA[<br><br>initialInstruction]]${-1}></initialInstruction>
+	<!-- use inputInstruction for default value in text field -->
+	<graphic filename="screenID.swf"/>
+	<modelAnswer framelabel="model_answer"><![CDATA[modelAnswer]]${-1}></modelAnswer>
+	<finalInstruction><![CDATA[<br><br>finalInstruction]]${-1}></finalInstruction>
+</screen>
+]]></content>
+	<tabTrigger>openinput</tabTrigger>
+	<scope>text.xml</scope>
+</snippet>

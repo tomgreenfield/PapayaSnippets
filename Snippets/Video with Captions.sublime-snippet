@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+<screen type="Video" id="screenID">
+	<title><![CDATA[title]]${-1}></title>
+	<initialText><![CDATA[initialText]]${-1}></initialText>
+	<initialInstruction><![CDATA[<br><br>initialInstruction]]${-1}></initialInstruction>
+	<!-- skin = none to remove playbar -->
+	<video width="320" height="240" overlayControls="y" preview="screenID.jpg" filename="screenID.mp4" captionsXML="screenID.xml"/>
+	<finalInstruction><![CDATA[<br><br>finalInstruction]]${-1}></finalInstruction>
+</screen>
+]]></content>
+	<tabTrigger>videocaptions</tabTrigger>
+	<scope>text.xml</scope>
+</snippet>

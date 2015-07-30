@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[
+<screen type="Animation" id="screenID">
+	<title><![CDATA[title]]${-1}></title>
+	<initialText><![CDATA[initialText]]${-1}></initialText>
+	<initialInstruction><![CDATA[<br><br>initialInstruction]]${-1}></initialInstruction>
+	<graphic filename="screenID.swf"/>
+	<texts>
+		<!-- instruction = initial | more | final -->
+		<text id="1" instruction="more"><![CDATA[text]]${-1}></text>
+		<text id="2" instruction="more"><![CDATA[text]]${-1}></text>
+		<text id="3" instruction="final"><![CDATA[text]]${-1}></text>
+	</texts>
+	<moreInstruction><![CDATA[<br><br>moreInstruction]]${-1}></moreInstruction>
+	<finalInstruction><![CDATA[<br><br>finalInstruction]]${-1}></finalInstruction>
+</screen>
+]]></content>
+	<tabTrigger>animation</tabTrigger>
+	<scope>text.xml</scope>
+</snippet>

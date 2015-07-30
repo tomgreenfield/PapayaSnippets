@@ -1,0 +1,34 @@
+<snippet>
+	<content><![CDATA[
+<screen type="MCQ" id="screenID">
+	<title><![CDATA[title]]${-1}></title>
+	<initialText><![CDATA[initialText]]${-1}></initialText>
+	<initialInstruction><![CDATA[<br><br>initialInstruction]]${-1}></initialInstruction>
+	<graphic filename="screenID.swf"/>
+	<options allowMultipleSelection="y" randomOrder="n" attempts="2" useCheckboxes="y" showMarking="y">
+		<option id="1" correct="n"><![CDATA[option]]${-1}></option>
+		<option id="2" correct="n"><![CDATA[option]]${-1}></option>
+		<option id="3" correct="n"><![CDATA[option]]${-1}></option>
+		<option id="4" correct="n"><![CDATA[option]]${-1}></option>
+		<option id="5" correct="n"><![CDATA[option]]${-1}></option>
+		<option id="6" correct="n"><![CDATA[option]]${-1}></option>
+	</options>
+	<feedback hideImageWhenFeedbackShown="y">
+		<totallyCorrect><![CDATA[totallyCorrect]]${-1}></totallyCorrect>
+		<partlyCorrect><![CDATA[partlyCorrect]]${-1}></partlyCorrect>
+		<totallyIncorrect><![CDATA[totallyIncorrect]]${-1}></totallyIncorrect>
+		<partlyCorrectFinal><![CDATA[partlyCorrectFinal]]${-1}></partlyCorrectFinal>
+		<totallyIncorrectFinal><![CDATA[totallyIncorrectFinal]]${-1}></totallyIncorrectFinal>
+	</feedback>
+	<instructions>
+		<totallyCorrect><![CDATA[<br><br>totallyCorrect]]${-1}></totallyCorrect>
+		<partlyCorrect><![CDATA[<br><br>partlyCorrect]]${-1}></partlyCorrect>
+		<totallyIncorrect><![CDATA[<br><br>totallyIncorrect]]${-1}></totallyIncorrect>
+		<partlyCorrectFinal><![CDATA[<br><br>partlyCorrectFinal]]${-1}></partlyCorrectFinal>
+		<totallyIncorrectFinal><![CDATA[<br><br>totallyIncorrectFinal]]${-1}></totallyIncorrectFinal>
+	</instructions>
+</screen>
+]]></content>
+	<tabTrigger>mcqinstruction</tabTrigger>
+	<scope>text.xml</scope>
+</snippet>

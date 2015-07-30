@@ -1,0 +1,75 @@
+<snippet>
+	<content><![CDATA[
+<screen type="CarouselZoom" id="screenID">
+	<title><![CDATA[title]]${-1}></title>
+	<initialText><![CDATA[initialText]]${-1}></initialText>
+	<initialInstruction><![CDATA[<br><br>initialInstruction]]${-1}></initialInstruction>
+	<graphic filename="screenID.swf"/>
+	<displayItems>
+		<displayItem id="1">
+			<text><![CDATA[text]]${-1}></text>
+			<buttons show="y">
+				<button>
+					<label><![CDATA[label]]${-1}></label>
+					<feedbackText><![CDATA[feedbackText]]${-1}></feedbackText>
+				</button>
+				<button>
+					<label><![CDATA[label]]${-1}></label>
+					<feedbackText><![CDATA[feedbackText]]${-1}></feedbackText>
+				</button>
+			</buttons>
+		</displayItem>
+		<displayItem id="2">
+			<text><![CDATA[text]]${-1}></text>
+			<buttons show="y">
+				<button>
+					<label><![CDATA[label]]${-1}></label>
+					<feedbackText><![CDATA[feedbackText]]${-1}></feedbackText>
+				</button>
+				<button>
+					<label><![CDATA[label]]${-1}></label>
+					<feedbackText><![CDATA[feedbackText]]${-1}></feedbackText>
+				</button>
+			</buttons>
+		</displayItem>
+		<displayItem id="3">
+			<text><![CDATA[text]]${-1}></text>
+			<buttons show="y" stack="v">
+				<button>
+					<label><![CDATA[label]]${-1}></label>
+					<feedbackText><![CDATA[feedbackText]]${-1}></feedbackText>
+				</button>
+				<button>
+					<label><![CDATA[label]]${-1}></label>
+					<feedbackText><![CDATA[feedbackText]]${-1}></feedbackText>
+				</button>
+				<button>
+					<label><![CDATA[label]]${-1}></label>
+					<feedbackText><![CDATA[feedbackText]]${-1}></feedbackText>
+				</button>
+				<button>
+					<label><![CDATA[label]]${-1}></label>
+					<feedbackText><![CDATA[feedbackText]]${-1}></feedbackText>
+				</button>
+			</buttons>
+		</displayItem>
+		<displayItem id="4">
+			<text><![CDATA[text]]${-1}></text>
+			<buttons show="y">
+				<button>
+					<label><![CDATA[label]]${-1}></label>
+					<feedbackText><![CDATA[feedbackText]]${-1}></feedbackText>
+				</button>
+				<button>
+					<label><![CDATA[label]]${-1}></label>
+					<feedbackText><![CDATA[feedbackText]]${-1}></feedbackText>
+				</button>
+			</buttons>
+		</displayItem>
+	</displayItems>
+	<finalInstruction><![CDATA[<br><br>finalInstruction]]${-1}></finalInstruction>
+</screen>
+]]></content>
+	<tabTrigger>carouselzoomquestions</tabTrigger>
+	<scope>text.xml</scope>
+</snippet>
